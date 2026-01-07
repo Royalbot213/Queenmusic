@@ -21,7 +21,7 @@ YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music 
 YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 ## Other vaes
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 18000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID"))
@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/xbitcode/music.git",
+    "https://github.com/Royalsongmusic/Meeramusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -49,7 +49,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/randomlychats")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
-ASSISTANT_LEAVE_TIME = int(getenv("ASSISTANT_LEAVE_TIME",  5400))
+ASSISTANT_LEAVE_TIME = int(getenv("ASSISTANT_LEAVE_TIME",  18000))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
